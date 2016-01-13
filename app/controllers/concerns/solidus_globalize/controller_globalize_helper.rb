@@ -11,7 +11,7 @@ module SolidusGlobalize
       private
 
       def globalize_fallbacks
-        Fallbacks.config!
+        SolidusGlobalize::Fallbacks.config!
       end
     end
   end
